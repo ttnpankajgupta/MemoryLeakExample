@@ -13,6 +13,7 @@
 		60AD6CC52B98E0380061C93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AD6CC32B98E0380061C93D /* Main.storyboard */; };
 		60AD6CC72B98E03A0061C93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AD6CC62B98E03A0061C93D /* Assets.xcassets */; };
 		60AD6CCA2B98E03A0061C93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AD6CC82B98E03A0061C93D /* LaunchScreen.storyboard */; };
+		60AD6CD22B98E1490061C93D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AD6CD12B98E1490061C93D /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		60AD6CC62B98E03A0061C93D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60AD6CC92B98E03A0061C93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60AD6CCB2B98E03A0061C93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AD6CD12B98E1490061C93D /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,11 @@
 				60AD6CBD2B98E0380061C93D /* AppDelegate.swift */,
 				60AD6CBF2B98E0380061C93D /* SceneDelegate.swift */,
 				60AD6CC12B98E0380061C93D /* ViewController.swift */,
+				60AD6CD12B98E1490061C93D /* NewViewController.swift */,
+				60AD6CCB2B98E03A0061C93D /* Info.plist */,
 				60AD6CC32B98E0380061C93D /* Main.storyboard */,
 				60AD6CC62B98E03A0061C93D /* Assets.xcassets */,
 				60AD6CC82B98E03A0061C93D /* LaunchScreen.storyboard */,
-				60AD6CCB2B98E03A0061C93D /* Info.plist */,
 			);
 			path = MemoryLeakExample;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				60AD6CC22B98E0380061C93D /* ViewController.swift in Sources */,
 				60AD6CBE2B98E0380061C93D /* AppDelegate.swift in Sources */,
 				60AD6CC02B98E0380061C93D /* SceneDelegate.swift in Sources */,
+				60AD6CD22B98E1490061C93D /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
